@@ -1,0 +1,22 @@
+<iframe id="video" height="93%" width="100%" src="https://www.youtube.com/embed/0Nrse_ME6g8"> </iframe>
+<!-- GHh-7yPLkmU -->
+
+<a id="link-wa" width="100%" class="button phone" href="https://wa.me/6281385407950?text=Saya%20tertarik%20untuk%20mengambil%20insurance%20tolong%20kirimkan%20pricelist%20insurance%20nya">Proteksi Hari ini juga untuk Cashback</a>
+<link href='styles.css' rel='stylesheet' type='text/css'>
+
+<!-- change number feature -->
+<!-- <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const phoneNumber = urlParams.get('phone_number') || "6281385407950";
+  document.getElementById("link-wa").href = "https://wa.me/" + phoneNumber + "?text=Saya%20tertarik%20untuk%20mengambil%20insurance%20tolong%20kirimkan%20pricelist%20insurance%20nya";
+</script> -->
+
+<!-- change video feature -->
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const modeVideo = urlParams.get('mode') || "covid";
+  const mapper = {
+    "flexi-ci": "https://www.youtube.com/embed/GHh-7yPLkmU"
+  }
+  document.getElementById("video").src = mapper[modeVideo] || "https://www.youtube.com/embed/0Nrse_ME6g8"
+</script>
